@@ -8,6 +8,7 @@ variable "aws_region" {
 }
 
 variable "bucket_name" {
+  description = "Name for the AWS bucket to deploy to."
   type = string
   default = "projects-service-bucket"
 }
